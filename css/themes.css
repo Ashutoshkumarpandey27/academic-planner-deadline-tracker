@@ -1,0 +1,94 @@
+:root {
+    /* Color Palette - Light Theme */
+    --primary-color: #3b82f6;
+    --primary-dark: #2563eb;
+    --primary-light: #60a5fa;
+    
+    --secondary-color: #8b5cf6;
+    --secondary-dark: #7c3aed;
+    
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --danger-color: #ef4444;
+    --info-color: #06b6d4;
+    
+    --background: #ffffff;
+    --background-secondary: #f9fafb;
+    --background-tertiary: #f3f4f6;
+    
+    --text-primary: #111827;
+    --text-secondary: #6b7280;
+    --text-tertiary: #9ca3af;
+    
+    --border-color: #e5e7eb;
+    --border-light: #f3f4f6;
+    
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    
+    --radius-sm: 0.375rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    
+    --transition: all 0.3s ease;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    --primary-color: #60a5fa;
+    --primary-dark: #3b82f6;
+    --primary-light: #93c5fd;
+    
+    --secondary-color: #a78bfa;
+    --secondary-dark: #8b5cf6;
+    
+    --success-color: #34d399;
+    --warning-color: #fbbf24;
+    --danger-color: #f87171;
+    --info-color: #22d3ee;
+    
+    --background: #111827;
+    --background-secondary: #1f2937;
+    --background-tertiary: #374151;
+    
+    --text-primary: #f9fafb;
+    --text-secondary: #d1d5db;
+    --text-tertiary: #9ca3af;
+    
+    --border-color: #374151;
+    --border-light: #4b5563;
+    
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
+}
+
+/* Priority Colors */
+.priority-high {
+    --priority-color: var(--danger-color);
+}
+
+.priority-medium {
+    --priority-color: var(--warning-color);
+}
+
+.priority-low {
+    --priority-color: var(--success-color);
+}
+
+/* Status Colors */
+.status-completed {
+    --status-color: var(--success-color);
+}
+
+.status-pending {
+    --status-color: var(--info-color);
+}
+
+.status-overdue {
+    --status-color: var(--danger-color);
+}
